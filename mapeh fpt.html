@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-POP Music Video</title>
+    <style>
+        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d0d0d;
+      color: #f2f2f2;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+}
+
+header
+{background: linear-gradient(90deg, #00ff88, #8a2be2);
+      color: black;
+      padding: 25px;
+      border-bottom: 4px solid #00ff88;
+      box-shadow: 0 4px 15px rgba(0, 255, 136, 0.5);}
+
+header h1
+      {font-size: 2em;
+      margin: 0;
+      color: #000;
+      text-shadow: 0 0 6px #fff, 0 0 12px #00ff88;}
+
+section
+      {margin: 20px auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 800px;
+      background: #1a1a1a;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 255, 136, 0.2);
+      transition: transform 0.3s;}
+
+
+section:hover
+  {transform: scale(1.01);}
+
+h2
+      {color: #00ff88;
+      text-shadow: 0 0 6px #00ff88, 0 0 12px #8a2be2;}
+
+ .video-container                                                              
+      {position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #8a2be2;}
+      
+      .video-container iframe
+      {position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;}
+
+footer
+      {margin-top: 40px;
+      padding: 15px;
+      background: #111;
+      color: #888;
+      font-size: 0.9em;}
+
+.btn 
+      {display: inline-block;
+      background: #00ff88;
+      color: black;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00ff88, 0 0 20px #8a2be2;
+      transition: 0.3s;}
+
+.btn:hover
+      {background: #8a2be2;
+      color: white;
+      box-shadow: 0 0 15px #8a2be2, 0 0 25px #00ff88;}
+
+@media (max-width:600px)
+{header h1
+    {font-size: 1.5em;}
+
+section
+{padding: 15px;}
+
+.btn
+{padding:8px 16px;
+font-size: 0.8em;}
+   </style>
+
+</head>
+<body>
+    <header>
+    <h1>#PPopFusion</h1>
+    <p>Celebrating Filipino Youth & Asian Culture</p>
+    </header>
+
+    <main>
+            <section id="video">
+      <iframe 
+        src="https://www.youtube.com/embed/r4wVfr6gbKA" 
+        allowfullscreen>
+      </iframe>
+      <br>
+      <a href="https://www.youtube.com/watch?v=r4wVfr6gbKA" class="btn" target="_blank">
+        Watch on YouTube
+      </a>
+    </section>
+
+        </main>
+
+        <footer>
+        <p>Made with <3 by Group 4</p>
+        </footer>
+    
+</body>
+</html>
